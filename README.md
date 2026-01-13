@@ -46,7 +46,7 @@ Unlike typical chatbots, Aura combines deterministic domain logic with selective
 ---
 
 ## 🏗️ Architecture Overview
-
+```
 User
 ↓
 Streamlit UI
@@ -64,10 +64,8 @@ Memory & Profile
 ↓
 LLM (used only when reasoning is required)
 
-yaml
-Copy code
+```
 
----
 
 ## 🛠️ Tech Stack
 
@@ -106,8 +104,9 @@ toml
 Copy code
 OPENAI_API_KEY = "sk-..."
 Deploy
+```
 
-🔐 Security & Privacy
+## 🔐 Security & Privacy
 API keys are never hardcoded
 
 Local dev uses environment variables
@@ -118,7 +117,7 @@ Personal data stored locally in JSON
 
 No external databases
 
-📈 Future Improvements
+## 📈 Future Improvements
 Background reminders
 
 Multi-user authentication
